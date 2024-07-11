@@ -1,0 +1,42 @@
+.header {
+    padding: 20px 0 100px 0;
+}
+
+.content {
+    position: fixed;
+    width: 95%;
+    z-index: 100;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffffe6;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 18px;
+    border-radius: 6px;
+    box-shadow: 1px 4px 10px 1px rgb(211, 211, 211);
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.nav ul,
+.ulAuth {
+    display: flex;
+    gap: 20px;
+}
+
+.login,
+.register {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.register {
+    background-color: black;
+    color: white;
+}
